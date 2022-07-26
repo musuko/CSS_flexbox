@@ -1,0 +1,26 @@
+/*表題の枠線*/
+.topFrame {
+  border: dotted 1px;
+}
+/*横並びにする*/
+.baseFrame1 {
+  display: flex;
+  flex-direction: row;
+  width: 99vw;
+  height: 80vh;
+}
+/*左側の横幅*/
+.leftFrame {
+  border: solid 1px;
+  width: 20%;
+}
+/*中央の横幅*/
+.centerFrame {
+  border: solid 1px red;
+  width: 50%
+}
+/*右側の横幅*/
+.rightFrame {
+  border: solid 1px;
+  width: 30%;
+}

@@ -1,0 +1,24 @@
+.baseFrame {            /*全体像*/
+  display: flex;        /*flexbox*/
+  flex-direction: row;        /*横方向*/
+  width: 99vw;
+  height: 97vh;
+}
+
+.leftFrame {            /*左側設定*/
+  width: 10%;
+  background-color: aliceblue;
+}
+
+.rightFrame {            /*右側設定*/
+  width:40%;
+  margin: 0 1px;
+  padding: 50px;
+
+  overflow: auto;
+  background-color: yellowgreen;
+}
+
+.rightFrame::-webkit-scrollbar {    /*スクロールバーを非表示にする疑似要素*/
+  display: none;
+}
